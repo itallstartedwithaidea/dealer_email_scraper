@@ -1,0 +1,51 @@
+{
+  "name": "dealership-email-scraper",
+  "version": "1.0.0",
+  "description": "Intelligent dealership staff contact scraper with comprehensive Google Sheets integration, smart page discovery, and enhanced contact extraction including names, titles, and phone numbers",
+  "main": "scraper.js",
+  "type": "module",
+  "scripts": {
+    "start": "node run-production.js",
+    "setup": "npm install && node setup.js",
+    "test": "node test.js",
+    "test-single": "node test-live-updates.js",
+    "production": "node run-production.js",
+    "clean": "rm -f scraper-*.log scraped_emails.csv"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "googleapis": "^128.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "inquirer": "^9.2.11"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "scraper",
+    "email-scraper",
+    "dealership",
+    "automotive",
+    "contact-extraction",
+    "google-sheets",
+    "staff-directory",
+    "lead-generation",
+    "automation",
+    "business-intelligence",
+    "crm",
+    "sales-prospecting"
+  ],
+  "author": "John Williams",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/dealership-email-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/dealership-email-scraper/issues"
+  },
+  "homepage": "https://github.com/yourusername/dealership-email-scraper#readme"
+}
